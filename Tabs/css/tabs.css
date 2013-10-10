@@ -1,0 +1,27 @@
+section{
+    width: 400px;
+    height: 200px;
+    border: 1px solid;
+    background-color: antiquewhite;
+    padding-left: 10px;
+}
+
+span{
+    display: inline-block;
+    width: 120px;
+    height: 25px;
+    border: 1px solid;
+    background-color: cyan;
+}
+
+.active{
+    background-color: royalblue;
+}
+
+#section2{
+    display: none;
+}
+
+#section3{
+    display: none;
+}

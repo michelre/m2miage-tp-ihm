@@ -1,0 +1,19 @@
+table{
+    width: 100%;
+    border: 1px solid;
+}
+
+table tr{
+    width: 100%;
+    border: 1px solid;
+}
+
+table tr td{
+    width: 50%;
+    height: 20px;
+    border: 1px solid;
+}
+
+table tr td input{
+    width: 95%;
+}

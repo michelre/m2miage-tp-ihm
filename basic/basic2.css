@@ -1,0 +1,46 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	flex-flow: row;
+}
+
+body > section {
+	flex: 1 100%;
+	display: flex;
+	flex-flow: column;
+}
+
+header {
+	background:#7AD5E3 ;
+	flex: 0;
+}
+
+nav {
+	background:#C1F7F5 ;
+	flex: 0;
+}
+aside {
+	background: #7DA1CB;
+	flex: 0 200px;
+}
+
+footer {
+	background: white;
+	flex: 0;
+}
+body > section > section {
+	flex: 1;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+section.content {
+	flex: 1 300px;
+    text-overflow: ellipsis;
+	background: white;
+}

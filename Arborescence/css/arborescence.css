@@ -1,0 +1,26 @@
+#myList .file{
+    list-style-image: url("../img/file.png"); 
+}
+
+#myList .Album{
+    list-style-image: url("../img/folder.png"); 
+}
+
+#myList .Album span{
+    cursor: pointer;
+}
+
+#myList .open{
+    list-style-image: url("../img/folder-open.png"); 
+}
+
+#myList .Album:not(.open) ul{
+    display: none;
+}
+
+#myList .Album .dragover{
+    background-color:#DFF4F7;
+}
+
+    
+

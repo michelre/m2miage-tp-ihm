@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Listes avec drag and drop</title>
+        <link href="css/arborescence.css" rel="stylesheet" media="screen" />
+        <script src="js/arborescence.js"></script>
+    </head>
+    <body onload="init()">
+        <ul id="myList">
+            <li class="Album open"><span class="name" data-info="Album">Album 1 (<span class="nb"></span>)</span>
+                <ul>
+                    <li class="Album open"><span class="name">Sous-Album 1 (<span class="nb"></span>)</span>
+                        <ul>
+                            <li class="file">Photo 1</li>
+                            <li class="file">Photo 2</li>
+                            <li class="file">Photo 3</li>
+                        </ul>
+                    </li>
+                    <li class="Album open"><span class="name">Sous-Album 2 (<span class="nb"></span>)</span>
+                        <ul>
+                            <li class="file">Photo 4</li>
+                            <li class="file">Photo 5</li>
+                            <li class="file">Photo 6</li>
+                            <li class="file">Photo 7</li>
+                            <li class="file">Photo 8</li>
+                            <li class="file">Photo 9</li>
+                        </ul>
+                    </li>
+                    <li class="file">Photo 10</li>
+                    <li class="file">Photo 11</li>
+                    <li class="file">Photo 12</li>
+                </ul>
+            </li>
+            <li class="Album"><span class="name" data-info="Album">Album 2 (<span class="nb"></span>)</span>
+            </li>
+        </ul>
+        <button id="newAlbum">Nouvel Album</button>
+    </body>
+</html>
